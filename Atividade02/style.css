@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+    text-align: justify;
+    text-indent: 3%;
+}
+
+p {
+    font-size: large;
+    text-align: justify;
+    text-indent: 3%;
+}
+
+blockquote {
+    font-size: large;
+    text-align: justify;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+#imagem {
+    border: 0%;
+    justify-content: center;
+}
+
+img:hover {
+    opacity: 0.5;
+
+}
