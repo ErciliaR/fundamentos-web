@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS and Icons starts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS and Icons ends -->
+
+    <title>Objetivo: Vida Terrestre</title>
+</head>
+
+<body>
+
+    <!-- header starts -->
+    <header class=" m-0 border-0" style="padding-bottom: 30%;">
+
+        <!-- menu starts -->
+        <nav id="navbar-changing-color" class="navbar navbar-expand-md navbar-dark fixed-top ">
+            <div class="container-fluid" style="padding-left: 0%;">
+                <a class="ml-5" href="index.html"><img src="assest/icon.png" alt="icon de planta nascendo" width="50px"
+                        height="50px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end align-items-center mr-5 "
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link h4 my-shadow" href="#problematica">Problemática</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link h4 my-shadow" href="#açoes">Ações</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle h4 active" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Comportamentos
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right bg-secondary"
+                                aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-black font-weight-bold"
+                                    href="#mentalidades">Mentalidades</a>
+                                <a class="dropdown-item text-black font-weight-bold" href="#habilidades">Habilidades</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="d-inline-flex">
+                        <button class="btn btn-md border-0 btn-light bg-transparent" onclick="searchOpening()"><span
+                                class="fas fa-search text-white"></span></button>
+                        <form id="form" class="form-inline">
+                            <input id="textSearch" class="form-control form-control-md" type="search"
+                                placeholder="What's up..." aria-label="Search" onkeypress="return FindKey(event)">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- menu ends -->
+
+        <!-- mensange on header -->
+        <div class=" -fluid justify-content-center ml-5 h-100" style="padding-top: 15%; margin-right: 50%;">
+            <h1 class="d-flex justify-content-center text-wrap text-left text-white mb-4 m"
+                style="font-size: 65pt; text-shadow:0.5px 0.5px 1px #000000;">
+                Vida terrestre
+            </h1>
+            <div class="justify-content-center bg-gray-opacity p-4 rounded-lg shadow-lg" style="margin-right: 5%;">
+                <p class="d-flex text-white text-left m-0 my-shadow" style="font-size: 14pt;">Proteger, restaurar e
+                    promover
+                    o uso sustentável dos ecossistemas terrestres, gerir de forma sustentável as florestas, combater a
+                    desertificação, travar e reverter a degradação dos solos e travar a perda da biodiversidade.
+                </p>
+                <footer class="d-flex align-items-center justify-content-end blockquote-footer text-white"><a
+                        class="text-decoration-none text-white" style="font-size:
+                        12pt; text-shadow:0.5px 0.5px 1px #000000;" href="https://brasil.un.org/pt-br/sdgs/15"
+                        target="blank">Nações Unidas</a>
+                </footer>
+            </div>
+
+        </div>
+        <!-- mensange on header ends -->
+
+    </header>
+    <!-- header ends -->
+
+    <!-- Problemática starts -->
+    <div id="problematica" class="pattern">
+        <h1 class="d-flex justify-content-center align-items-center text-white text-uppercase m-0 my-shadow"
+            style="font-size: 38pt; padding-bottom: 5%; height: fit-content;">Problemática
+        </h1>
+        <div class="row d-flex justify-content-center align-items-center p-5 bg-white-opacity rounded-lg shadow-lg">
+            <div class="mt-3 mb-3 d-inline-flex align-items-center">
+                <div class="align-items-center p-5">
+                    <h3 class="d-flex justify-content-center text-uppercase pb-3"
+                        style="color: #36591D; font-size: 18pt;">Intervenção do homem na
+                        natureza</h3>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">
+                        Nosso planeta está sofrendo mudanças extraordinárias, tanto no clima quanto na vida terrestre,
+                        isso
+                        se
+                        deve a intervenções humanas. O homem buscou adaptar o planeta para atender as suas necessidades
+                        primeiramente básicas e depois gananciosas de conforto. O principal exemplo de intervenção
+                        humana
+                        que acarreta em mudanças climáticas é a emissão de CO2. Se não houvesse a interferência do homem
+                        a
+                        Terra conseguiria se adaptar ao aumento natural dessas emissões não havendo grandes alterações
+                        no
+                        clima.
+                    </p>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">
+                        A industrialização em nível mundial fez com que a quantidade dessas emissões crescesse sem
+                        precedentes nas últimas décadas, de maneira a tornar nosso planeta mais quente. Não somente o
+                        clima
+                        está sendo alterado como também a flora do planeta. Para ter mais espaço, o homem desmata as
+                        florestas , cortam centenas de árvores e ateiam fogo. Também com o número populacional
+                        crescente,
+                        a quantidade de lixo tende a ser maior e faz com que os descartes sejam feitos de maneira
+                        incorreta
+                        em
+                        rios, mares e no solo.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/zkQu0QNcWjA" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="" class="pattern pt-0">
+        <div class="row d-flex justify-content-center align-items-center p-5 bg-white-opacity rounded-lg shadow-lg">
+            <div class="mt-3 mb-3 d-inline-flex align-items-center">
+                <div class="align-items-center p-5">
+                    <h3 class="d-flex justify-content-center text-uppercase pb-3"
+                        style="color: #36591D; font-size: 18pt;">
+                        IMPACTOS DO DESMATAMENTO</h3>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">
+                        Os impactos do desmatamento são a perda de produtividade a longo prazo, devido a erosão e
+                        compactação
+                        do solo, e a exaustão dos nutrientes, que são removidos pelas culturas. Além das mudanças no
+                        regime
+                        hidrológico, pois interferem na quantidade de agua que é precipitada e interrompe o fluxo
+                        d’água.
+                        E tem mais! Se o desmatamento ocorrer na margem de um rio, pode ocorrer o assoreamento deste
+                        rio,
+                        a perda da biodiversidade local, devido a utilização das áreas devastadas para a monocultura,
+                        fazendo com que existam apenas tipos semelhantes de vida no local.
+                    </p>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">
+                        Sem falar da emissão de gases de efeito estufa que ocorre devido a decomposição da matéria e
+                        também
+                        dos
+                        incêndios relacionados à limpeza dessas áreas. Em zonas urbanas, o desmatamento de encostas
+                        podem ocasionar o deslizamento dessas encostas, devido ás raízes ajudarem na retenção de terra.
+                    </p>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">Você sabe o que aconteceria se fossem cortadas todas as
+                        árvores de uma cidade. Veja este vídeo e descubra.</p>
+                </div>
+                <div class=" col-md-6">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/zarll9bx6FI" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Texto e Video -->
+    <div class="pattern pt-0">
+        <div class="row-2 d-flex justify-content-center align-items-center p-5 bg-white-opacity rounded-lg shadow-lg">
+            <div class="row mt-3 mb-3 d-inline-flex align-items-center">
+                <div class="align-items-center p-5">
+                    <h3 class="d-flex justify-content-center text-uppercase pb-3"
+                        style="color: #36591D; font-size: 18pt;">A importância da
+                        biodiversidade
+                    </h3>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">
+                        Ecossistemas, espécies e diversidade genêtica formam juntos a teia complexa da biodiversidade
+                        que é
+                        vital para a sobrevivência de organismos na Terra. Nós, seres-humanos,
+                        estamos envoltos nesta biodiversidade, também. Quando apenas alguns fios são
+                        perdidos, o nosso prórpio bem-estar fica ameaçado. Veja este vídeo para entender os possíveis
+                        impactos que são gerados ao interferimos na
+                        biodiversidade.</p>
+                </div>
+            </div>
+            <div class=" col-md-6">
+                <iframe width="100%" height="315" class="rounded" src="https://www.youtube.com/embed/GK_vRtHJZu4"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Problemática ends -->
+
+    <!-- imagem to break -->
+    <div class="row-1" style="height: 700px;  margin-bottom: 8%;">
+        <img src="assest/boat.jpg" alt="barco sobre rio amazonense" width="100%" style="background-position: center;">
+    </div>
+    </div>
+
+    <!-- Ações starts -->
+    <div id="açoes" class="pattern pt-0" style="height: fit-content;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="d-flex justify-content-center align-items-center text-white text-uppercase m-0 my-shadow"
+            style="font-size: 38pt; padding-bottom: 5%;">Ações
+        </h1>
+        <div class="jumbotron jumbotron-fluid bg-white-opacity">
+            <div class="container">
+                <h1 class="display-4" style="color: #36591D;">Ações que podem ser tomadas</h1>
+                <p class="lead font-weight-bolder" style="color: #36591D;">Todos podemos fazer a nossa parte, abaixo,
+                    seguem ações que
+                    podemos tomar em nosso dia-a-dia e em nossa comunidade para a preservação do meio ambiente:</p>
+            </div>
+        </div>
+        <!-- Cards -->
+        <div class="row justify-content-md-center">
+            <div class="card-deck mb-3 mt-3">
+                <div class="card border-success mb-3 font-weight-bold text-left"
+                    style="max-width: 18rem; color: #36591D; font-size: 15pt;">
+                    <div class="card-body">
+                        <p class="card-text">Lixo reciclável: ao reciclar o lixo podemos reduzir
+                            a quantidade
+                            que vão para os lixões e aterros e ainda ajudar uma cooperativa de reciclagem.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-success mb-3 font-weight-bold text-left"
+                    style="max-width: 18rem; color: #36591D; font-size: 15pt;">
+                    <div class="card-body">
+                        <p class="card-text">Economia de água: não deixar a torneira aberta ao
+                            lavar a louça ou escovar
+                            os dentes, diminuir o tempo do banho,
+                            reutilizar a água da máquina de lavar para limpeza de calçada e quintal.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-success mb-3 font-weight-bold text-left"
+                    style="max-width: 18rem; color: #36591D; font-size: 15pt;">
+                    <div class="card-body">
+                        <p class="card-text">Energia elétrica: comprar eletro-doméstico com
+                            etiqueta A de consumo de
+                            energia,
+                            desligar luzes, Tv,
+                            ar condicionado e ventiladores quando não tiver ninguém no ambiente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="card-deck mb-3 mt-3">
+                <div class="card border-success mb-3 font-weight-bold text-left"
+                    style="max-width: 18rem; color: #36591D; font-size: 15pt;">
+                    <div class="card-body">
+                        <p class="card-text">Lixo no Lixo: no dia-a-dia, ter senso de
+                            responsabilidade pessoal jogando o
+                            lixo no lixo, para evitar a poluição de rios e riachos e evitar enchentes.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-success mb-3 font-weight-bold text-left"
+                    style="max-width: 18rem; color: #36591D; font-size: 15pt;">
+                    <div class="card-body">
+                        <p class="card-text">Evite sacolas plásticas: utilize sacolas ecológicas
+                            ao fazer compras,
+                            evitando pegar as sacolas do supermercado, tente sempre usar materiais biodegradáveis ao
+                            descartar o lixo doméstico.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-success mb-3 font-weight-bold text-left"
+                    style="max-width: 18rem; color: #36591D; font-size: 15pt;">
+                    <div class="card-body">
+                        <p class="card-text">Evite usar o carro sozinho: em tempos de pandemia é
+                            muito difícil aderir a
+                            isso, mas o transporte público gera “menos poluição” por cabeça, elém disso,
+                            transporte por caronas podem ser uma excelente contribuição.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="card-deck mb-3 mt-3">
+                <div class="card border-success mb-3 font-weight-bold text-left"
+                    style="max-width: 18rem; color: #36591D; font-size: 15pt;">
+                    <div class="card-body">
+                        <p class="card-text">Preservar os rios e as matas ciliares, não jogar lixo em rios e encostas e
+                            não
+                            desmatar nem podar árvores. Assim como os cílios são para os olhos, as matas ciliares
+                            protegem
+                            os rios, mantendo a umidade e protegendo a fauna local.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-success mb-3 font-weight-bold text-left"
+                    style="max-width: 18rem; color: #36591D; font-size: 15pt;">
+                    <div class="card-body">
+                        <p class="card-text">Evitar pescar na piracema: Não pescar em épocas de reprodução de peixes,
+                            pois
+                            afeta a biodiversidade,
+                            diminuindo a espécie local.
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-success mb-3 font-weight-bold text-left"
+                    style="max-width: 18rem; color: #36591D; font-size: 15pt;">
+                    <div class="card-body">
+                        <p class="card-text">Animais silvestres: nunca compre animais silvestres sem registro,
+                            pois ao comprar, você está cooperando com o tráfico de animais. Pois estas atitudes podem
+                            levar espécies a extinção
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Cards -->
+    </div>
+    <!-- Ações ends -->
+
+    <!-- Education starts -->
+    <div id="mentalidades" class="pattern" style="height: 750px;">
+        <h1 class="d-flex justify-content-center align-items-center text-white text-uppercase m-0 my-shadow"
+            style="font-size: 38pt; padding-bottom: 5%;">Mentalidades
+        </h1>
+
+
+        <div class="pattern pt-0">
+            <div class="row mt-3 mb-3 d-inline-flex align-items-center">
+                <div class="align-items-center p-5 bg-white-opacity">
+                    <h3 class="d-flex justify-content-center text-uppercase pb-3"
+                        style="color: #36591D; font-size: 18pt;">
+                        Responsabilidade pessoal:
+                    </h3>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">
+                        Reconhecer que minha ação gera consequência irreversiva para o meio ambiente. Se cada um fazer a
+                        sua
+                        parte
+                        teremos um planeta muito melhor. Devemos nos conscientizar e agir da melhor forma para preservar
+                        nosso
+                        planeta através de atitudes como cultivar plantas, diminuir o consumo de produtos
+                        industrializados,
+                        separar o
+                        lixo e descartar no lugar correto, utilizar transporte público ou carona para reduzir CO2, entre
+                        muitas
+                        outras formas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="pattern pt-0">
+            <div class="row mt-3 mb-3 d-inline-flex align-items-center">
+                <div class="align-items-center p-5 bg-white-opacity">
+                    <h3 class="d-flex justify-content-center text-uppercase pb-3"
+                        style="color: #36591D; font-size: 18pt;">
+                        Orientação ao futuro:
+                    </h3>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">
+                        Está relacionada nas ações que podemos tomar para
+                        preservação ou reconstrução do ecossistema para que, a longo prazo, possamos continuar nossa
+                        existência,
+                        pois tudo relacionado ao planeta depende dos ecossistemas. Além de desenvolver tecnologias que
+                        possam
+                        promover o uso sustentável dos ecossistemas e assim gerir os recursos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Education ends -->
+
+    <div id="habilidades" class="pattern" style="height: 750px;">
+        <h1 class="d-flex justify-content-center align-items-center text-white text-uppercase m-0 my-shadow"
+            style="font-size: 38pt; padding-bottom: 5%;">Habilidades
+        </h1>
+
+
+        <div class="pattern pt-0">
+            <div class="row mt-3 mb-3 d-inline-flex align-items-center">
+                <div class="align-items-center p-5 bg-white-opacity">
+                    <h3 class="d-flex justify-content-center text-uppercase pb-3"
+                        style="color: #36591D; font-size: 18pt;">
+                        Comunicação:
+                    </h3>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">
+                        Uma forma de conscientizar as pessoas sobre os problemas do planeta é através da comunicação.
+                        Podemos
+                        disseminar a ideia com nossos amigos , família , vizinhos e nossa comunidade. Quanto mais
+                        pessoas se
+                        conscientizarem, melhor será o resultado para o planeta.</p>
+                </div>
+            </div>
+        </div>
+        <div class="pattern pt-0">
+            <div class="row mt-3 mb-3 d-inline-flex align-items-center">
+                <div class="align-items-center p-5 bg-white-opacity">
+                    <h3 class="d-flex justify-content-center text-uppercase pb-3"
+                        style="color: #36591D; font-size: 18pt;">
+                        Proatividade:
+                    </h3>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">
+                        Como a resposta da natureza pode levar anos para aparecer é preciso deslocar-nos da inércia e
+                        sermos
+                        proativos para que se possa recuperar o que foi desmatado e para que seja possível trazer o
+                        equilíbrio no
+                        nosso ecossistema.</p>
+                </div>
+            </div>
+        </div>
+        <div class="pattern pt-0">
+            <div class="row mt-3 mb-3 d-inline-flex align-items-center">
+                <div class="align-items-center p-5 bg-white-opacity">
+                    <h3 class="d-flex justify-content-center text-uppercase pb-3"
+                        style="color: #36591D; font-size: 18pt;">
+                        Trabalho em equipe:
+                    </h3>
+                    <p class="text-left font-weight-bold d-flex justify-content-center"
+                        style="color: #36591D; font-size: 12pt;">
+                        Como é quase impossível alguma mudança no nosso ecossistema ser feito por uma pessoa apenas, é
+                        muito
+                        importante o espírito de sociedade para que se possa compreender que a nossa vida depende do
+                        nosso
+                        ecossistema.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Site footer -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to
+                        help the
+                        upcoming programmers with the code. Scanfcode focuses on providing the most efficient
+                        code or
+                        snippets as the code wants to be simple. We will help programmers build up concepts in
+                        different
+                        programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP,
+                        Android,
+                        SQL
+                        and Algorithm.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                        <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                        <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                        <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                        <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                        <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                        <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="#">Grupo Objetivo Verde</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="" href="#"><i class="fas fa-twitter"></i></a></li>
+                        <li><a class="" href="#"><i class="fas fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Script starts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <script src="function.js"></script>
+    <!-- Script ends -->
+</body>
+
+</html>
